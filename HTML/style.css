@@ -1,0 +1,93 @@
+/* a type of pseudoselector that allows for the element to change when hovered */
+
+/* h2:hover {
+    color: red;
+} */
+
+/* known as an attribute selector that selects elements based on type of attribute
+[attr = value] is the format  */
+
+
+/* h2[class = subtitle] {
+    color: red;
+} */
+
+/* use hash for ids, ids are used usually for a specific element 
+unlike classes that can be used on multiple elements */
+
+/* #services {
+    color: green;
+} */
+
+/* all pseudoselectors have the element followed by a colon and the specific 
+criteria or thing that is being selected: only-child, last-child, link, visited (used for <a> tags) */
+/* li:only-child {
+    color: red;
+} */
+
+/* td:only-child {
+    color: red;
+} */
+
+/* #google-link:link {
+    color: green;
+
+}
+
+#google-link:visited {
+    color: red;
+}  */
+
+/* advanced selectors */
+
+/* selects all elements below the first element to  */
+/* h2 + a { 
+    color: blue;
+} */
+
+/* ~ is the sibling selector that selects other elements in the same parent */
+/* textarea ~ button {
+    color: red;
+} */
+
+/* > used to select child elements of the parent */
+/* ul > li {
+    color: purple;
+} */
+
+/* two elements side by side such as h2 li mean all descedents of the first element 
+that match the second element will be selected */
+
+/* img[src^= "../img/"] {
+    border: 10px solid black;
+} */
+
+/* starts with = ^ contains = * */
+
+/* h2[class |= article-subtitle] {
+    background: green;
+} */
+
+/* ~= and |= */
+body{
+    background
+}
+
+#title {
+    color: rgba(186, 133, 9, );
+
+}
+
+.subtitle {
+    color: rgb(219, 168, 50);
+}
+
+#service-image {
+    height: 400px;
+    width: 70px;
+
+    background: linear-gradient(to right, red, blue);
+    background-size: cover;
+}
+
+

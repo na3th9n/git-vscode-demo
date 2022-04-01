@@ -1,0 +1,88 @@
+body{
+    background: white;
+}
+
+
+#block {
+    height: 100px;
+    width: 100%;
+
+    background: rgb(160, 160, 160);
+}
+
+#title {
+    text-align: center;
+    text-decoration: None;
+    text-transform: uppercase;
+    font-style: none;
+    font-weight: 500px;
+    font-family:"Arial", sans-serif;
+
+}
+
+#gradiant {
+    height: 200px;
+
+    background: radial-gradient(circle, green,yellow);
+    border: 2px solid rgb(0,0,0);
+    padding: 20px;
+    margin: 100px;
+    float: right;
+}
+
+img {
+    height: 300px;
+    width: 60%;
+
+    border: 2px solid black;
+    padding: 100px 40px 0 5px;
+}
+
+.container {
+    background-color: rgb(250, 250, 250);
+    padding: 60px;
+    margin: 10xpx;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item {
+    background: green;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+    width: 70ox;
+    
+    line-height: 50px;
+    margin: 10px;
+}
+
+.grid-container {
+    background-color: rgb(250, 250, 250);
+    margin: 100px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.grid-item {
+    color: black;
+    font-size: 25px;
+    text-align: center  ;
+
+    
+    line-height: 40px;
+    margin: 10px;
+}
+
+.submit-button {
+    background-color: red;
+    font-size:s 100px;
+
+}
